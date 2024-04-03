@@ -1,0 +1,10 @@
+{% if status == "Conectado" %}
+    <a class="button is-light" hx-post="/desconectarRobot" hx-trigger="click">
+        <strong>Desconectar do Robô</strong>
+  </a>
+  
+{% else %}
+    <a class="button is-primary" hx-post="/conectarRobot">
+    <strong>Conectar com o Robô</strong>
+  </a>
+{% endif %}

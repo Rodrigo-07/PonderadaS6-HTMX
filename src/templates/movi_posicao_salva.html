@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lista de Posições Salvas</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css">
+    <script src="https://unpkg.com/htmx.org"></script>
+</head>
+<body>
+    <section class="section">
+        <div class="container">
+            <h1 class="title">Posições Salvas</h1>
+            <div>
+                {% for posicao in posicoes %}
+                    <div class="box">
+                        <article class="media">
+                            <div class="media-content">
+                                <div class="content">
+                                    <p>
+                                        <strong>{{ posicao.nome }}</strong> 
+                                        <br>
+                                        X: {{ posicao.x }}, Y: {{ posicao.y }}, Z: {{ posicao.z }}, R: {{ posicao.r }}
+                                    </p>
+                                </div>
+                            </div>
+                            <button class="button is-small is-primary" hx-post="http://localhost:5000/movimentar_posicao_salva/{{ posicao.nome }}" hx-trigger="click" hx-target="#resultado">Mover</button>
+                            <div id="resultado"></div>
+                        </article>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </section>
+</body>
+</html>

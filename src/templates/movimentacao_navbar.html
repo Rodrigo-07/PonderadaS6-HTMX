@@ -1,0 +1,39 @@
+{% if status == "Conectado" %}
+    <a class="navbar-link">
+        Movimentação do robô Top
+    </a>
+
+    <div class="navbar-dropdown">
+        <a class="navbar-item" hx-get="http://localhost:5000/mov_posicao_espesifica" hx-trigger="click" hx-target="#conteudo" >
+        Mover Para posição específica d
+        </a>
+        <a class="navbar-item">
+        Movimentação Livre
+        </a>
+        <a class="navbar-item" hx-get="http://localhost:5000/salvar_posicao" hx-trigger="click" hx-target="#conteudo" >
+        Salvar Posições
+        </a>
+        <a class="navbar-item" hx-get="http://localhost:5000/listar_posicoes" hx-trigger="click" hx-target="#conteudo" >
+        Mover para posições salvas
+        </a>
+    </div>
+{% else %}
+    <a class="navbar-link" style="color: grey; cursor: not-allowed;">
+        Movimentação do robô
+    </a>
+
+    <div class="navbar-dropdown">
+        <a class="navbar-item" style="color: grey; cursor: not-allowed;">
+        Mover Para posição específica
+        </a>
+        <a class="navbar-item" style="color: grey; cursor: not-allowed;">
+        Movimentação Livre
+        </a>
+        <a class="navbar-item" style="color: grey; cursor: not-allowed;">
+        Salvar Posições
+        </a>
+        <a class="navbar-item">
+        Mover para posições salvas
+        </a>
+    </div>
+{% endif %}

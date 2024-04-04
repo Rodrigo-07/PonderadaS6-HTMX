@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Salvar Posição do Robô</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css">
+    <script src="https://unpkg.com/htmx.org"></script>
+</head>
+<body>
+    <section class="section">
+        <div class="container">
+            <h1 class="title">Salvar Posição do Robô baseado na posição atual do robô</h1>
+
+            <form hx-post="/salvarPosicao_atualDobot" hx-target="#resultado" hx-trigger="submit">
+                <div class="field">
+                    <label class="label">Nome da Posição</label>
+                    <div class="control">
+                        <input class="input" type="text" name="nome" required>
+                    </div>
+                </div>
+
+                <div class="control">
+                    <button type="submit" class="button is-primary">Salvar Posição Atual</button>
+                    <!-- TODO: colocar botão para pegar a posição atual do robo e salvar com esses dados -->
+                </div>
+            </form>
+        </div>
+
+        <div id="resultado">
+        </div>
+    </section>
+</body>
+</html>

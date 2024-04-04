@@ -1,0 +1,389 @@
+{
+    "_default": {
+        "1": {
+            "Usuario": "Rodrigo",
+            "A\u00e7\u00e3o": "Conex\u00e3o com Rob\u00f4",
+            "Data": "04/04/2024 11:31:36",
+            "Status": "Sucesso",
+            "Mensagem": "Conex\u00e3o com o rob\u00f4 estabelecida."
+        },
+        "2": {
+            "Usuario": "Rodrigo",
+            "A\u00e7\u00e3o": "Salvar Posi\u00e7\u00e3o",
+            "Data": "04/04/2024 11:33:17",
+            "Status": "Sucesso",
+            "Mensagem": "Posi\u00e7\u00e3o salva com sucesso. Nome: {nome}, x: {x}, y: {y}, z: {z}, r: {r}"
+        },
+        "3": {
+            "Usuario": "Rodrigo",
+            "A\u00e7\u00e3o": "Conex\u00e3o com Rob\u00f4",
+            "Data": "04/04/2024 11:34:39",
+            "Status": "Sucesso",
+            "Mensagem": "Conex\u00e3o com o rob\u00f4 estabelecida."
+        },
+        "4": {
+            "Usuario": "Rodrigo",
+            "A\u00e7\u00e3o": "Salvar Posi\u00e7\u00e3o",
+            "Data": "04/04/2024 11:34:54",
+            "Status": "Sucesso",
+            "Mensagem": "Posi\u00e7\u00e3o salva com sucesso. Nome: {teste}, x: {x}, y: {y}, z: {z}, r: {r}"
+        },
+        "5": {
+            "Usuario": "Rodrigo",
+            "A\u00e7\u00e3o": "Conex\u00e3o com Rob\u00f4",
+            "Data": "04/04/2024 11:36:27",
+            "Status": "Sucesso",
+            "Mensagem": "Conex\u00e3o com o rob\u00f4 estabelecida."
+        },
+        "6": {
+            "Usuario": "Rodrigo",
+            "A\u00e7\u00e3o": "Salvar Posi\u00e7\u00e3o",
+            "Data": "04/04/2024 11:36:37",
+            "Status": "Sucesso",
+            "Mensagem": "Posi\u00e7\u00e3o salva com sucesso. Nome: Oii, x: 321.0, y: 123.0, z: 231.0, r: 121.0"
+        },
+        "7": {
+            "Usuario": "Rodrigo",
+            "A\u00e7\u00e3o": "Conex\u00e3o com Rob\u00f4",
+            "Data": "04/04/2024 11:39:42",
+            "Status": "Sucesso",
+            "Mensagem": "Conex\u00e3o com o rob\u00f4 estabelecida."
+        },
+        "8": {
+            "Usuario": "Rodrigo",
+            "A\u00e7\u00e3o": "Conex\u00e3o com Rob\u00f4",
+            "Data": "04/04/2024 11:42:40",
+            "Status": "Falha",
+            "Mensagem": "Falha ao conectar com o rob\u00f4."
+        },
+        "9": {
+            "Usuario": "Rodrigo",
+            "A\u00e7\u00e3o": "Conex\u00e3o com Rob\u00f4",
+            "Data": "04/04/2024 11:45:09",
+            "Status": "Sucesso",
+            "Mensagem": "Conex\u00e3o com o rob\u00f4 estabelecida."
+        },
+        "10": {
+            "Usuario": "Rodrigo",
+            "A\u00e7\u00e3o": "Conex\u00e3o com Rob\u00f4",
+            "Data": "04/04/2024 12:32:16",
+            "Status": "Sucesso",
+            "Mensagem": "Conex\u00e3o com o rob\u00f4 estabelecida."
+        },
+        "11": {
+            "Usuario": "Rodrigo",
+            "A\u00e7\u00e3o": "Conex\u00e3o com Rob\u00f4",
+            "Data": "04/04/2024 12:33:49",
+            "Status": "Sucesso",
+            "Mensagem": "Conex\u00e3o com o rob\u00f4 estabelecida."
+        },
+        "12": {
+            "Usuario": "Rodrigo",
+            "A\u00e7\u00e3o": "Conex\u00e3o com Rob\u00f4",
+            "Data": "04/04/2024 12:35:06",
+            "Status": "Sucesso",
+            "Mensagem": "Conex\u00e3o com o rob\u00f4 estabelecida."
+        },
+        "13": {
+            "Usuario": "Rodrigo",
+            "A\u00e7\u00e3o": "Conex\u00e3o com Rob\u00f4",
+            "Data": "04/04/2024 12:36:15",
+            "Status": "Sucesso",
+            "Mensagem": "Conex\u00e3o com o rob\u00f4 estabelecida."
+        },
+        "14": {
+            "Usuario": "Rodrigo",
+            "A\u00e7\u00e3o": "Conex\u00e3o com Rob\u00f4",
+            "Data": "04/04/2024 12:37:37",
+            "Status": "Sucesso",
+            "Mensagem": "Conex\u00e3o com o rob\u00f4 estabelecida."
+        },
+        "15": {
+            "Usuario": "Rodrigo",
+            "A\u00e7\u00e3o": "Salvar Posi\u00e7\u00e3o Atual",
+            "Data": "04/04/2024 12:37:42",
+            "Status": "Sucesso",
+            "Mensagem": "Posi\u00e7\u00e3o salva com sucesso. Nome: PosicaoTeste6, x: 243.73814392089844, y: -46.37319564819336, z: 65.77806091308594, r: -10.772247314453125"
+        },
+        "16": {
+            "Usuario": "Rodrigo",
+            "A\u00e7\u00e3o": "Movimenta\u00e7\u00e3o para Posi\u00e7\u00e3o Salva",
+            "Data": "04/04/2024 12:38:10",
+            "Status": "Sucesso",
+            "Mensagem": "Movido para a posi\u00e7\u00e3o salva. Nome: PosicaoTeste6, x: 243.73814392089844, y: -46.37319564819336, z: 65.77806091308594, r: -10.772247314453125"
+        },
+        "17": {
+            "Usuario": "Rodrigo",
+            "A\u00e7\u00e3o": "Desconex\u00e3o com Rob\u00f4",
+            "Data": "04/04/2024 12:38:31",
+            "Status": "Sucesso",
+            "Mensagem": "Desconex\u00e3o com o rob\u00f4 estabelecida."
+        },
+        "18": {
+            "Usuario": "Rodrigo",
+            "A\u00e7\u00e3o": "Conex\u00e3o com Rob\u00f4",
+            "Data": "04/04/2024 12:39:06",
+            "Status": "Sucesso",
+            "Mensagem": "Conex\u00e3o com o rob\u00f4 estabelecida."
+        },
+        "19": {
+            "Usuario": "Rodrigo",
+            "A\u00e7\u00e3o": "Movimenta\u00e7\u00e3o para Posi\u00e7\u00e3o Salva",
+            "Data": "04/04/2024 12:39:21",
+            "Status": "Sucesso",
+            "Mensagem": "Movido para a posi\u00e7\u00e3o salva. Nome: PosicaoTeste6, x: 243.73814392089844, y: -46.37319564819336, z: 65.77806091308594, r: -10.772247314453125"
+        },
+        "20": {
+            "Usuario": "Rodrigo",
+            "A\u00e7\u00e3o": "Desconex\u00e3o com Rob\u00f4",
+            "Data": "04/04/2024 12:40:27",
+            "Status": "Sucesso",
+            "Mensagem": "Desconex\u00e3o com o rob\u00f4 estabelecida."
+        },
+        "21": {
+            "Usuario": "Rodrigo",
+            "A\u00e7\u00e3o": "Conex\u00e3o com Rob\u00f4",
+            "Data": "04/04/2024 12:42:41",
+            "Status": "Sucesso",
+            "Mensagem": "Conex\u00e3o com o rob\u00f4 estabelecida."
+        },
+        "22": {
+            "Usuario": "Rodrigo",
+            "A\u00e7\u00e3o": "Conex\u00e3o com Rob\u00f4",
+            "Data": "04/04/2024 12:42:43",
+            "Status": "Sucesso",
+            "Mensagem": "Conex\u00e3o com o rob\u00f4 estabelecida."
+        },
+        "23": {
+            "Usuario": "Rodrigo",
+            "A\u00e7\u00e3o": "Conex\u00e3o com Rob\u00f4",
+            "Data": "04/04/2024 12:42:45",
+            "Status": "Sucesso",
+            "Mensagem": "Conex\u00e3o com o rob\u00f4 estabelecida."
+        },
+        "24": {
+            "Usuario": "Rodrigo",
+            "A\u00e7\u00e3o": "Conex\u00e3o com Rob\u00f4",
+            "Data": "04/04/2024 12:52:35",
+            "Status": "Sucesso",
+            "Mensagem": "Conex\u00e3o com o rob\u00f4 estabelecida."
+        },
+        "25": {
+            "Usuario": "Rodrigo",
+            "A\u00e7\u00e3o": "Conex\u00e3o com Rob\u00f4",
+            "Data": "04/04/2024 12:53:03",
+            "Status": "Sucesso",
+            "Mensagem": "Conex\u00e3o com o rob\u00f4 estabelecida."
+        },
+        "26": {
+            "Usuario": "Rodrigo",
+            "A\u00e7\u00e3o": "Movimenta\u00e7\u00e3o Livre",
+            "Data": "04/04/2024 12:53:51",
+            "Status": "Sucesso",
+            "Mensagem": "Movimenta\u00e7\u00e3o livre realizada com sucesso. Dire\u00e7\u00e3o: direita, Taxa: 1.0"
+        },
+        "27": {
+            "Usuario": "Rodrigo",
+            "A\u00e7\u00e3o": "Conex\u00e3o com Rob\u00f4",
+            "Data": "04/04/2024 12:57:10",
+            "Status": "Sucesso",
+            "Mensagem": "Conex\u00e3o com o rob\u00f4 estabelecida."
+        },
+        "28": {
+            "Usuario": "Rodrigo",
+            "A\u00e7\u00e3o": "Atuador",
+            "Data": "04/04/2024 12:57:16",
+            "Status": "Sucesso",
+            "Mensagem": "Atuador acionado com sucesso. A\u00e7\u00e3o: ativar, Estado: 1"
+        },
+        "29": {
+            "Usuario": "Rodrigo",
+            "A\u00e7\u00e3o": "Atuador",
+            "Data": "04/04/2024 12:57:24",
+            "Status": "Sucesso",
+            "Mensagem": "Atuador acionado com sucesso. A\u00e7\u00e3o: suck, Estado: On"
+        },
+        "30": {
+            "Usuario": "Rodrigo",
+            "A\u00e7\u00e3o": "Movimenta\u00e7\u00e3o Livre",
+            "Data": "04/04/2024 12:57:38",
+            "Status": "Sucesso",
+            "Mensagem": "Movimenta\u00e7\u00e3o livre realizada com sucesso. Dire\u00e7\u00e3o: direita, Taxa: 1.0"
+        },
+        "31": {
+            "Usuario": "Rodrigo",
+            "A\u00e7\u00e3o": "Movimenta\u00e7\u00e3o Livre",
+            "Data": "04/04/2024 12:57:52",
+            "Status": "Sucesso",
+            "Mensagem": "Movimenta\u00e7\u00e3o livre realizada com sucesso. Dire\u00e7\u00e3o: R, Taxa: 1.0"
+        },
+        "32": {
+            "Usuario": "Rodrigo",
+            "A\u00e7\u00e3o": "Movimenta\u00e7\u00e3o Livre",
+            "Data": "04/04/2024 12:57:59",
+            "Status": "Sucesso",
+            "Mensagem": "Movimenta\u00e7\u00e3o livre realizada com sucesso. Dire\u00e7\u00e3o: Z, Taxa: 1.03123"
+        },
+        "33": {
+            "Usuario": "Rodrigo",
+            "A\u00e7\u00e3o": "Conex\u00e3o com Rob\u00f4",
+            "Data": "04/04/2024 13:09:15",
+            "Status": "Sucesso",
+            "Mensagem": "Conex\u00e3o com o rob\u00f4 estabelecida."
+        },
+        "34": {
+            "Usuario": "Rodrigo",
+            "A\u00e7\u00e3o": "Conex\u00e3o com Rob\u00f4",
+            "Data": "04/04/2024 13:10:05",
+            "Status": "Sucesso",
+            "Mensagem": "Conex\u00e3o com o rob\u00f4 estabelecida."
+        },
+        "35": {
+            "Usuario": "Rodrigo",
+            "A\u00e7\u00e3o": "Conex\u00e3o com Rob\u00f4",
+            "Data": "04/04/2024 13:10:30",
+            "Status": "Sucesso",
+            "Mensagem": "Conex\u00e3o com o rob\u00f4 estabelecida."
+        },
+        "36": {
+            "Usuario": "Rodrigo",
+            "A\u00e7\u00e3o": "Movimenta\u00e7\u00e3o Livre",
+            "Data": "04/04/2024 13:10:55",
+            "Status": "Sucesso",
+            "Mensagem": "Movimenta\u00e7\u00e3o livre realizada com sucesso. Dire\u00e7\u00e3o: X, Taxa: 50"
+        },
+        "37": {
+            "Usuario": "Rodrigo",
+            "A\u00e7\u00e3o": "Conex\u00e3o com Rob\u00f4",
+            "Data": "04/04/2024 13:11:32",
+            "Status": "Sucesso",
+            "Mensagem": "Conex\u00e3o com o rob\u00f4 estabelecida."
+        },
+        "38": {
+            "Usuario": "Rodrigo",
+            "A\u00e7\u00e3o": "Movimenta\u00e7\u00e3o Livre",
+            "Data": "04/04/2024 13:11:37",
+            "Status": "Sucesso",
+            "Mensagem": "Movimenta\u00e7\u00e3o livre realizada com sucesso. Dire\u00e7\u00e3o: X, Taxa: 50"
+        },
+        "39": {
+            "Usuario": "Rodrigo",
+            "A\u00e7\u00e3o": "Movimenta\u00e7\u00e3o Livre",
+            "Data": "04/04/2024 13:11:40",
+            "Status": "Sucesso",
+            "Mensagem": "Movimenta\u00e7\u00e3o livre realizada com sucesso. Dire\u00e7\u00e3o: Z, Taxa: 50"
+        },
+        "40": {
+            "Usuario": "Rodrigo",
+            "A\u00e7\u00e3o": "Movimenta\u00e7\u00e3o Livre",
+            "Data": "04/04/2024 13:11:44",
+            "Status": "Sucesso",
+            "Mensagem": "Movimenta\u00e7\u00e3o livre realizada com sucesso. Dire\u00e7\u00e3o: Z, Taxa: -50"
+        },
+        "41": {
+            "Usuario": "Rodrigo",
+            "A\u00e7\u00e3o": "Movimenta\u00e7\u00e3o Livre",
+            "Data": "04/04/2024 13:11:47",
+            "Status": "Sucesso",
+            "Mensagem": "Movimenta\u00e7\u00e3o livre realizada com sucesso. Dire\u00e7\u00e3o: Z, Taxa: -50"
+        },
+        "42": {
+            "Usuario": "Rodrigo",
+            "A\u00e7\u00e3o": "Movimenta\u00e7\u00e3o Livre",
+            "Data": "04/04/2024 13:11:48",
+            "Status": "Sucesso",
+            "Mensagem": "Movimenta\u00e7\u00e3o livre realizada com sucesso. Dire\u00e7\u00e3o: Z, Taxa: -50"
+        },
+        "43": {
+            "Usuario": "Rodrigo",
+            "A\u00e7\u00e3o": "Atuador",
+            "Data": "04/04/2024 13:11:52",
+            "Status": "Sucesso",
+            "Mensagem": "Atuador acionado com sucesso. A\u00e7\u00e3o: suck, Estado: On"
+        },
+        "44": {
+            "Usuario": "Rodrigo",
+            "A\u00e7\u00e3o": "Atuador",
+            "Data": "04/04/2024 13:11:58",
+            "Status": "Sucesso",
+            "Mensagem": "Atuador acionado com sucesso. A\u00e7\u00e3o: suck, Estado: Off"
+        },
+        "45": {
+            "Usuario": "Rodrigo",
+            "A\u00e7\u00e3o": "Atuador",
+            "Data": "04/04/2024 13:12:10",
+            "Status": "Sucesso",
+            "Mensagem": "Atuador acionado com sucesso. A\u00e7\u00e3o: suck, Estado: On"
+        },
+        "46": {
+            "Usuario": "Rodrigo",
+            "A\u00e7\u00e3o": "Atuador",
+            "Data": "04/04/2024 13:12:12",
+            "Status": "Sucesso",
+            "Mensagem": "Atuador acionado com sucesso. A\u00e7\u00e3o: suck, Estado: Off"
+        },
+        "47": {
+            "Usuario": "Rodrigo",
+            "A\u00e7\u00e3o": "Salvar Posi\u00e7\u00e3o Atual",
+            "Data": "04/04/2024 13:12:38",
+            "Status": "Sucesso",
+            "Mensagem": "Posi\u00e7\u00e3o salva com sucesso. Nome: PosicaoDiferete23, x: 265.2362365722656, y: -39.80194091796875, z: 24.834611892700195, r: -0.7929849624633789"
+        },
+        "48": {
+            "Usuario": "Rodrigo",
+            "A\u00e7\u00e3o": "Movimenta\u00e7\u00e3o para Posi\u00e7\u00e3o Salva",
+            "Data": "04/04/2024 13:12:53",
+            "Status": "Sucesso",
+            "Mensagem": "Movido para a posi\u00e7\u00e3o salva. Nome: PosicaoDiferete23, x: 265.2362365722656, y: -39.80194091796875, z: 24.834611892700195, r: -0.7929849624633789"
+        },
+        "49": {
+            "Usuario": "Rodrigo",
+            "A\u00e7\u00e3o": "Movimenta\u00e7\u00e3o para Posi\u00e7\u00e3o Salva",
+            "Data": "04/04/2024 13:12:56",
+            "Status": "Sucesso",
+            "Mensagem": "Movido para a posi\u00e7\u00e3o salva. Nome: PosicaoDiferete23, x: 265.2362365722656, y: -39.80194091796875, z: 24.834611892700195, r: -0.7929849624633789"
+        },
+        "50": {
+            "Usuario": "Rodrigo",
+            "A\u00e7\u00e3o": "Movimenta\u00e7\u00e3o para Posi\u00e7\u00e3o Salva",
+            "Data": "04/04/2024 13:12:59",
+            "Status": "Sucesso",
+            "Mensagem": "Movido para a posi\u00e7\u00e3o salva. Nome: PosicaoTeste6, x: 243.73814392089844, y: -46.37319564819336, z: 65.77806091308594, r: -10.772247314453125"
+        },
+        "51": {
+            "Usuario": "Rodrigo",
+            "A\u00e7\u00e3o": "Movimenta\u00e7\u00e3o para Posi\u00e7\u00e3o Salva",
+            "Data": "04/04/2024 13:13:01",
+            "Status": "Sucesso",
+            "Mensagem": "Movido para a posi\u00e7\u00e3o salva. Nome: PosicaoDiferete23, x: 265.2362365722656, y: -39.80194091796875, z: 24.834611892700195, r: -0.7929849624633789"
+        },
+        "52": {
+            "Usuario": "Rodrigo",
+            "A\u00e7\u00e3o": "Desconex\u00e3o com Rob\u00f4",
+            "Data": "04/04/2024 13:13:15",
+            "Status": "Sucesso",
+            "Mensagem": "Desconex\u00e3o com o rob\u00f4 estabelecida."
+        },
+        "53": {
+            "Usuario": "Rodrigo",
+            "A\u00e7\u00e3o": "Conex\u00e3o com Rob\u00f4",
+            "Data": "04/04/2024 13:14:14",
+            "Status": "Sucesso",
+            "Mensagem": "Conex\u00e3o com o rob\u00f4 estabelecida."
+        },
+        "54": {
+            "Usuario": "Rodrigo",
+            "A\u00e7\u00e3o": "Movimenta\u00e7\u00e3o para Posi\u00e7\u00e3o Salva",
+            "Data": "04/04/2024 13:14:32",
+            "Status": "Sucesso",
+            "Mensagem": "Movido para a posi\u00e7\u00e3o salva. Nome: PosicaoDiferete23, x: 265.2362365722656, y: -39.80194091796875, z: 24.834611892700195, r: -0.7929849624633789"
+        },
+        "55": {
+            "Usuario": "Rodrigo",
+            "A\u00e7\u00e3o": "Desconex\u00e3o com Rob\u00f4",
+            "Data": "04/04/2024 13:14:41",
+            "Status": "Sucesso",
+            "Mensagem": "Desconex\u00e3o com o rob\u00f4 estabelecida."
+        }
+    }
+}

@@ -5,13 +5,16 @@
 
     <div class="navbar-dropdown">
         <a class="navbar-item" hx-get="http://localhost:5000/mov_posicao_espesifica" hx-trigger="click" hx-target="#conteudo" >
-        Mover Para posição específica d
+        Mover Para posição específica
         </a>
-        <a class="navbar-item">
+        <a class="navbar-item" hx-get="http://localhost:5000/movimentacao_livre" hx-trigger="click" hx-target="#conteudo" >
         Movimentação Livre
         </a>
-        <a class="navbar-item" hx-get="http://localhost:5000/salvar_posicao" hx-trigger="click" hx-target="#conteudo" >
+        <a class="navbar-item" hx-get="http://localhost:5000/salvar_posicao" hx-trigger="click" hx-target="#conteudo">
         Salvar Posições
+        </a>
+        <a class="navbar-item" hx-get="http://localhost:5000/salvar_posicao_atual" hx-trigger="click" hx-target="#conteudo" >
+        Salvar Posições atual do robô
         </a>
         <a class="navbar-item" hx-get="http://localhost:5000/listar_posicoes" hx-trigger="click" hx-target="#conteudo" >
         Mover para posições salvas
@@ -30,9 +33,12 @@
         Movimentação Livre
         </a>
         <a class="navbar-item" style="color: grey; cursor: not-allowed;">
-        Salvar Posições
+        Salvar Posições Espécificas
         </a>
-        <a class="navbar-item">
+        <a class="navbar-item" style="color: grey; cursor: not-allowed;">
+            Salvar Posições atual do robô
+        </a>
+        <a class="navbar-item" style="color: grey; cursor: not-allowed;">
         Mover para posições salvas
         </a>
     </div>

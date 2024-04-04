@@ -24,11 +24,11 @@
       
         <div id="navbarBasicExample" class="navbar-menu">
           <div class="navbar-start">
-            <a class="navbar-item" hx-get="http://localhost:5000/mov_posicao_espesifica" hx-trigger="click" hx-target="#conteudo">
+            <a class="navbar-item" hx-get="http://localhost:5000/home_content" hx-trigger="click, load" hx-target="#conteudo">
               Home
             </a>
       
-            <a class="navbar-item">
+            <a class="navbar-item" hx-get="http://localhost:5000/logs" hx-trigger="click" hx-target="#conteudo">
               Log de Atividade
             </a>
             
@@ -49,10 +49,6 @@
 </head>
 <body>
   <div id="conteudo">
-    <!-- O botão vai fazer uma requisição post para o servidor -->
-    <button type="button" hx-get="http://localhost:5000/teste" hx-target="#respostaServidor" class="button is-primary">Button</button>
-
-    <div id="respostaServidor"></div>
   </div>
 </body>
 </html>

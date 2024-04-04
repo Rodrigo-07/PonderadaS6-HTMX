@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lista de Posições Salvas</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css">
+    <script src="https://unpkg.com/htmx.org"></script>
+
+</head>
+<body>
+    <!-- <div class="modal {{ 'is-active' if active else '' }}" id="meuModal">
+        <div class="modal-background" onclick="fecharModal()"></div>
+        <div class="modal-content">
+        </div>
+      </div> -->
+
+      <div class="modal {{ 'is-active' if active else '' }}" id="meuModal">
+        <div class="modal-background" onclick="fecharModal()"></div>
+        <div class="modal-card is-small">
+            <header class="modal-card-head">
+                <p class="modal-card-title">Atualizar Posição</p>
+                <button class="delete" aria-label="close" onclick="fecharModal()"></button>
+            </header>
+            <section class="modal-card-body">
+                <form hx-post="/atualizar_posicao_salva/{{ nome }}" hx-target="#respostaInvisivel" hx-swap="outerHTML">
+                    <div class="field">
+                        <label class="label">Nome</label>
+                        <div class="control">
+                            <input class="input" type="text" step="0.01" name="nome" value="{{ nome }}">
+                        </div>
+                    </div>
+                    <div class="field">
+                        <label class="label">X</label>
+                        <div class="control">
+                            <input class="input" type="number" step="0.01" name="x" value="{{ x }}">
+                        </div>
+                    </div>
+                    <div class="field">
+                        <label class="label">Y</label>
+                        <div class="control">
+                            <input class="input" type="number" step="0.01" name="y" value="{{ y }}">
+                        </div>
+                    </div>
+                    <div class="field">
+                        <label class="label">Z</label>
+                        <div class="control">
+                            <input class="input" type="number" step="0.01" name="z" value="{{ z }}">
+                        </div>
+                    </div>
+                    <div class="field">
+                        <label class="label">R</label>
+                        <div class="control">
+                            <input class="input" type="number" step="0.01" name="r" value="{{ r }}">
+                        </div>
+                    </div>
+                    <div class="field">
+                        <div class="control">
+                            <button type="submit" class="button is-success">Salvar Alterações</button>
+                        </div>
+                    </div>
+                </form>
+            </section>
+        </div>
+    </div>
+</body>
+</html>

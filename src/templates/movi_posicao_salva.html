@@ -4,8 +4,19 @@
     <title>Lista de Posições Salvas</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css">
     <script src="https://unpkg.com/htmx.org"></script>
+
+
 </head>
 <body>
+    <script>
+    document.getElementById('fundoModal').addEventListener('click', function() {
+    fecharModal();
+    });
+
+    function fecharModal() {
+    document.getElementById('meuModal').classList.remove('is-active');
+    }
+    </script>
     <section class="section">
         <div class="container">
             <h1 class="title">Posições Salvas</h1>
@@ -23,12 +34,19 @@
                                 </div>
                             </div>
                             <button class="button is-small is-primary" hx-post="http://localhost:5000/movimentar_posicao_salva/{{ posicao.nome }}" hx-trigger="click" hx-target="#resultado">Mover</button>
-                            <div id="resultado"></div>
+                            <button class="button is-small is-primary" hx-post="http://localhost:5000/deletar_posicao_salva/{{ posicao.nome }}" hx-trigger="click" hx-target="#resultado">Excluir posicao</button>
+                            <button class="button is-small is-primary" hx-get="/atualizar_posicao_salva_modal/{{ posicao.nome }}" hx-target="#meuModal" hx-swap="outerHTML">Abrir Modal</button>
                         </article>
                     </div>
                 {% endfor %}
             </div>
         </div>
+        <span id="respostaInvisivel" style="display: none;"></span>
+        <div class="modal" id="meuModal">
+            <div class="modal-background" id="fundoModal" onclick="fecharModal()"></div>
+            <div class="modal-content">
+        </div>
+        <div id="resultado"></div>
     </section>
 </body>
 </html>

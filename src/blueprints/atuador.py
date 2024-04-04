@@ -1,13 +1,14 @@
-from flask import Blueprint, render_template, request, current_app
-from dobot import Dobot  # Assumindo que você tenha uma classe separada para o Dobot
+from flask import Blueprint, current_app
 from tinydb import TinyDB, Query
 from datetime import datetime
 
+# Blueprint para o controle do atuador
 atuador_blueprint = Blueprint('atuador', __name__)
 
 db= TinyDB('db.json', indent=4)
 db_log = TinyDB('db_log.json', indent=4)
 
+# Rota para acionar o atuador
 @atuador_blueprint.route('/atuador/<acao>/<estado>', methods=['POST'])
 def funcao_atuador(acao, estado):
     if not current_app.config['ESTADO_CONEXAO_ROBO']:
@@ -15,6 +16,7 @@ def funcao_atuador(acao, estado):
         return "Robô desconectado. Conecte Primeiro"
     else:
         print(acao, estado)
+        # Acionar o atuador
         current_app.dobot.atuador(acao, estado)
 
         mensagem_log = f'Atuador acionado com sucesso. Ação: {acao}, Estado: {estado}'

@@ -21,7 +21,7 @@ class Dobot:
         try:
             available_ports = list_ports.comports()
             print(f'available ports: {[x.device for x in available_ports]}')
-            port = available_ports[2].device
+            port = available_ports[1].device
 
             self.device = pydobot.Dobot(port=port, verbose=True)
 

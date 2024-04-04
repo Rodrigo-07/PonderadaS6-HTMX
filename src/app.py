@@ -1,27 +1,29 @@
-from flask import Flask, render_template, request, redirect, url_for, session, flash
+from flask import Flask
 from flask_cors import CORS
-from tinydb import TinyDB, Query
-from flask import session
-import os
 from dobot import Dobot
-from datetime import datetime
 
+# Importe dos  Blueprints
+from blueprints.rotas_paginas import rotas_blueprint
+from blueprints.verificacoes import verificacoes
+from blueprints.conexoes import conexoes
+from blueprints.movimentacoes import movimentacoes
+from blueprints.edicoes_posicoes import edicoes_posicoes
+from blueprints.atuador import atuador_blueprint
 
+# Factory de criação do app
 def create_app():
+    # Instancia do Flask
     app = Flask(__name__)
 
+    # Variavel global
     app.config['ESTADO_CONEXAO_ROBO'] = False
 
+    # Instancia do Dobot
     dobot = Dobot()
+    # Adiciono o Dobot ao app para poder acessar em qualquer lugar
     app.dobot = dobot
 
-    from blueprints.rotas_paginas import rotas_blueprint
-    from blueprints.verificacoes import verificacoes
-    from blueprints.conexoes import conexoes
-    from blueprints.movimentacoes import movimentacoes
-    from blueprints.edicoes_posicoes import edicoes_posicoes
-    from blueprints.atuador import atuador_blueprint
-
+    # Registro seus Blueprints
     app.register_blueprint(rotas_blueprint)
     app.register_blueprint(verificacoes)
     app.register_blueprint(conexoes)
@@ -29,18 +31,15 @@ def create_app():
     app.register_blueprint(edicoes_posicoes)
     app.register_blueprint(atuador_blueprint)
     
+    # Habilitar o CORS
     CORS(app)
-
-    # Registre seus Blueprints
-    # app.register_blueprint(seu_blueprint)
-
-    # Armazene a instância dobot no app para acesso posterior
 
     return app
 
 
-
+# Instancia do app
 app = create_app()
 
+# Rodar o app
 if __name__ == '__main__':
     app.run()

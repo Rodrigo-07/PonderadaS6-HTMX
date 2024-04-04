@@ -20,10 +20,20 @@ class Dobot:
     def conectar_dobot(self):
         try:
             available_ports = list_ports.comports()
-            print(f'available ports: {[x.device for x in available_ports]}')
-            port = available_ports[1].device
 
-            self.device = pydobot.Dobot(port=port, verbose=True)
+            dobot_port = None
+            for port_info in available_ports:
+                print(f"Checking port: {port_info.device}, HWID: {port_info.hwid}")
+
+                # Suponha que 'VID:PID' seja substituído pelos valores específicos do Dobot
+                if "USB VID:PID=0483:5750 SER=6 LOCATION=1-1:x.0" in port_info.hwid:
+                    dobot_port = port_info.device
+                    print(f"Dobot encontrado na porta: {dobot_port}")
+                    break
+
+
+
+            self.device = pydobot.Dobot(port=dobot_port, verbose=True)
 
             return True
         except Exception as e:

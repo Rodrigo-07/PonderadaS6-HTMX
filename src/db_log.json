@@ -622,6 +622,55 @@
             "Data": "04/04/2024 16:12:33",
             "Status": "Sucesso",
             "Mensagem": "Atuador acionado com sucesso. A\u00e7\u00e3o: suck, Estado: Off"
+        },
+        "90": {
+            "Usuario": "Rodrigo",
+            "A\u00e7\u00e3o": "Conex\u00e3o com Rob\u00f4",
+            "Data": "04/04/2024 16:45:07",
+            "Status": "Sucesso",
+            "Mensagem": "Conex\u00e3o com o rob\u00f4 estabelecida."
+        },
+        "91": {
+            "Usuario": "Rodrigo",
+            "A\u00e7\u00e3o": "Conex\u00e3o com Rob\u00f4",
+            "Data": "04/04/2024 16:45:55",
+            "Status": "Sucesso",
+            "Mensagem": "Conex\u00e3o com o rob\u00f4 estabelecida."
+        },
+        "92": {
+            "Usuario": "Rodrigo",
+            "A\u00e7\u00e3o": "Conex\u00e3o com Rob\u00f4",
+            "Data": "04/04/2024 16:47:35",
+            "Status": "Sucesso",
+            "Mensagem": "Conex\u00e3o com o rob\u00f4 estabelecida."
+        },
+        "93": {
+            "Usuario": "Rodrigo",
+            "A\u00e7\u00e3o": "Conex\u00e3o com Rob\u00f4",
+            "Data": "04/04/2024 16:48:57",
+            "Status": "Sucesso",
+            "Mensagem": "Conex\u00e3o com o rob\u00f4 estabelecida."
+        },
+        "94": {
+            "Usuario": "Rodrigo",
+            "A\u00e7\u00e3o": "Conex\u00e3o com Rob\u00f4",
+            "Data": "04/04/2024 16:49:41",
+            "Status": "Sucesso",
+            "Mensagem": "Conex\u00e3o com o rob\u00f4 estabelecida."
+        },
+        "95": {
+            "Usuario": "Rodrigo",
+            "A\u00e7\u00e3o": "Atuador",
+            "Data": "04/04/2024 16:49:57",
+            "Status": "Sucesso",
+            "Mensagem": "Atuador acionado com sucesso. A\u00e7\u00e3o: suck, Estado: On"
+        },
+        "96": {
+            "Usuario": "Rodrigo",
+            "A\u00e7\u00e3o": "Atuador",
+            "Data": "04/04/2024 16:50:07",
+            "Status": "Sucesso",
+            "Mensagem": "Atuador acionado com sucesso. A\u00e7\u00e3o: suck, Estado: Off"
         }
     }
 }

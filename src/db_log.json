@@ -426,6 +426,55 @@
             "Data": "04/04/2024 13:52:05",
             "Status": "Sucesso",
             "Mensagem": "Conex\u00e3o com o rob\u00f4 estabelecida."
+        },
+        "62": {
+            "Usuario": "Rodrigo",
+            "A\u00e7\u00e3o": "Conex\u00e3o com Rob\u00f4",
+            "Data": "04/04/2024 14:38:08",
+            "Status": "Sucesso",
+            "Mensagem": "Conex\u00e3o com o rob\u00f4 estabelecida."
+        },
+        "63": {
+            "Usuario": "Rodrigo",
+            "A\u00e7\u00e3o": "Conex\u00e3o com Rob\u00f4",
+            "Data": "04/04/2024 14:58:40",
+            "Status": "Sucesso",
+            "Mensagem": "Conex\u00e3o com o rob\u00f4 estabelecida."
+        },
+        "64": {
+            "Usuario": "Rodrigo",
+            "A\u00e7\u00e3o": "Desconex\u00e3o com Rob\u00f4",
+            "Data": "04/04/2024 14:58:43",
+            "Status": "Sucesso",
+            "Mensagem": "Desconex\u00e3o com o rob\u00f4 estabelecida."
+        },
+        "65": {
+            "Usuario": "Rodrigo",
+            "A\u00e7\u00e3o": "Conex\u00e3o com Rob\u00f4",
+            "Data": "04/04/2024 15:17:41",
+            "Status": "Sucesso",
+            "Mensagem": "Conex\u00e3o com o rob\u00f4 estabelecida."
+        },
+        "66": {
+            "Usuario": "Rodrigo",
+            "A\u00e7\u00e3o": "Salvar Posi\u00e7\u00e3o",
+            "Data": "04/04/2024 15:18:01",
+            "Status": "Sucesso",
+            "Mensagem": "Posi\u00e7\u00e3o salva com sucesso. Nome: PosicaoNova, x: 234.0, y: 123.0, z: 23.0, r: 21.99"
+        },
+        "67": {
+            "Usuario": "Rodrigo",
+            "A\u00e7\u00e3o": "Conex\u00e3o com Rob\u00f4",
+            "Data": "04/04/2024 15:18:59",
+            "Status": "Sucesso",
+            "Mensagem": "Conex\u00e3o com o rob\u00f4 estabelecida."
+        },
+        "68": {
+            "Usuario": "Rodrigo",
+            "A\u00e7\u00e3o": "Atualizar Posi\u00e7\u00e3o Salva",
+            "Data": "04/04/2024 15:19:11",
+            "Status": "Sucesso",
+            "Mensagem": "Posi\u00e7\u00e3o atualizada com sucesso. Nome: PosicaoNova"
         }
     }
 }

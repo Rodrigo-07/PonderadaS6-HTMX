@@ -5,7 +5,7 @@ Nome: Rodrigo Sales Freire dos Santos
 
 ## Descrição do Projeto
 
-O projeto consiste em uma aplicação web para controlar o braço robótico dobot magician lite. Estou utilizando a bilbioteca pydobot, para o controle do braço robótico, e a biblioteca htmx para a comunicação entre o front-end e o back-end. O back-end foi desenvolvido em python, utilizando o framework flask.
+O projeto consiste em uma aplicação web para controlar o braço robótico dobot magician lite. Estou utilizando a bilbioteca pydobot, para o controle do braço robótico, e a biblioteca htmx para a comunicação entre o front-end e o back-end. O back-end foi desenvolvido em python, utilizando o framework flask. Para salvar os dados, estou utilizando a biblioteca TinyDB, que é um banco de dados em formato json. Também utilizei o Bulma para o css do projeto.
 
 ## Como rodar o projeto
 
